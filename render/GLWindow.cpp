@@ -42,7 +42,7 @@ CGLWindow::~CGLWindow()
    glfwOpenWindowHint(GLFW_OPENGL_VERSION_MINOR, 3);    
    glfwOpenWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
    glfwOpenWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
-   glfwOpenWindowHint(GLFW_FSAA_SAMPLES, 0);
+   glfwOpenWindowHint(GLFW_FSAA_SAMPLES, 6);
    glfwOpenWindowHint(GLFW_STEREO, GL_FALSE);
 
    if(m_window_info.fullscreen)
